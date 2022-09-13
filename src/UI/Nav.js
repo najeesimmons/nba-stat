@@ -1,5 +1,15 @@
+import "./Nav.css";
+
 const Nav = () => {
-  <p>nbaStat</p>;
+  return (
+    <nav className="navigation">
+      <div className="container">
+        <p className="logo">
+          nba<b>Stat</b>
+        </p>
+      </div>
+    </nav>
+  );
 };
 
 export default Nav;
